@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#6366f1">
+
+    <title>Ajeet To-Do App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+
+        <!-- BANNER -->
+        <header id="banner">
+
+            <div id="thought">
+                <span>Life is unpredictable</span>
+            </div>
+
+        </header>
+
+
+        <!-- MAIN TODO CONTAINER -->
+        <main id="ToDo_container">
+
+            <!-- TASK INPUT -->
+            <section id="task_container">
+
+                <div id="Task">
+
+                    <span id="plus">+</span>
+
+                    <input
+                        type="text"
+                        id="taskInput"
+                        placeholder="Add a new task..."
+                        maxlength="150"
+                        autocomplete="off"
+                    >
+
+                    <!-- CATEGORY -->
+                    <select id="categoryInput">
+
+                        <option value="Study">📚 Study</option>
+
+                        <option value="Work">💼 Work</option>
+
+                        <option value="Personal">👤 Personal</option>
+
+                        <option value="Fitness">💪 Fitness</option>
+
+                        <option value="Other">📌 Other</option>
+
+                    </select>
+
+                    <button id="taskbtn" type="button">
+                        Add Task
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- STATUS FILTERS -->
+            <section id="status">
+
+                <button id="all" class="filter-btn active-filter">
+                    All (0)
+                </button>
+
+                <button id="Active" class="filter-btn">
+                    Active (0)
+                </button>
+
+                <button id="completed" class="filter-btn">
+                    Completed (0)
+                </button>
+
+                <button id="clearcompleted" class="filter-btn clear-btn">
+                    Clear Completed
+                </button>
+
+            </section>
+
+
+            <!-- TASK LIST -->
+            <section class="work" aria-live="polite">
+
+                <!-- JavaScript creates task cards here -->
+
+            </section>
+
+        </main>
+
+
+       
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
