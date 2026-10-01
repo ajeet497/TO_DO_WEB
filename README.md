@@ -56,6 +56,13 @@ BCA Student | Aspiring Full-Stack Developer
 
 - GitHub: [@ajeet497](https://github.com/ajeet497)
 - Interests: Web Development, JavaScript, React.js, and Data Structures & Algorithms
+  
+## 📸 Screenshots
+
+### To-Do App Preview
+
+![To-Do App Preview](Screenshot%202026-10-01%20211848.png)
+  
 
 ---
 
